@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagination</title>
+    <style>
+        .pagination a {
+            color: pink;
+            float: left;
+            padding: 24px 20px;
+            text-decoration: none;
+            transition: background-color .5s;
+            border: 1px dot-dot-dash #36393f;
+            font-size: 22px;
+        }
+
+        .pagination a.active {
+            background-color: maroon;
+            color: darkblue;
+            border: 1px dot-dot-dash black;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<h2>Pagination</h2>
+<div class="pagination">
+    <a href="#">&lsaquo;</a>
+    <a href="#">1</a>
+    <a class="active" href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">&rsaquo;</a>
+</div>
+</body>
+</html>
